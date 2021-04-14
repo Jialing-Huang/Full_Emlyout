@@ -1,6 +1,6 @@
 # EmLayout
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+THE Project is a full function EmLayout strucuture. It is a good reference for frntend. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
 ## Development server
 
