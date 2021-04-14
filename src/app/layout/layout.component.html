@@ -1,0 +1,19 @@
+<app-sid-nav [sidenavTemplateRef]="navContent" [navWidth]="280" [duration]="0.3"></app-sid-nav>
+
+
+<div fxLayout="column" class="main">
+
+    <div class="upcontainer">
+        <app-toolbar></app-toolbar>
+        <app-main-menu></app-main-menu>
+        <app-breadcrumbs></app-breadcrumbs>
+    </div>
+    <div fxLayout="row" fxLayout.xs="column" class="downcontainer">
+        <app-left-fixed-menu fxFlex="20%" fxFlex.gt-xs="200px" fxFlex.lt-xs="100%"></app-left-fixed-menu>
+        <app-content fxFlex.lt-xs="100%"></app-content>
+    </div>
+</div>
+
+<ng-template #navContent>
+    hahahaha
+</ng-template>
